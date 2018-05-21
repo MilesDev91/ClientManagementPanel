@@ -1,5 +1,6 @@
 ﻿body {
-    background-color: #EDAF97;
+    font-family: Arial, sans-serif;
+    background-color: white;
     margin: 0;
 }
 
@@ -7,6 +8,8 @@
     margin: 15px auto;
     width: 80%;
     height: 50px;
-    background-color: #bfdbd9;
+    background-color: #ededed;
     box-shadow: rgba(0,0,0,0.4) 3px 5px 4px;
+    border: 2px solid #f2c06f;
+    border-radius: 8px 2px;
 }
