@@ -4,15 +4,12 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0px 15px;
-        background-color: #746047;
+        padding: 0px 10%;
+        background-color: #d7fff9;
         align-content: center;
-        box-shadow: rgba(0,0,0,0.8) 0px 2px 4px;
-    }
+        /*box-shadow: rgba(0,0,0,0.8) 0px 2px 4px;*/
+        border-bottom: 1px solid #cfcfcf;
 
-    h2 {
-        color: #8efff5;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
 
     ul {
@@ -30,13 +27,21 @@
     }
 
     a {
+        font-weight: bold;
+        color: black;
         text-decoration: none;
         margin: auto;
+        width: 40px;
+    }
+
+    a:hover {
+        color: blue;
+        font-size: 1.1em;
     }
 </style>
 <header>
     <nav class="header">
-        <h2>Client Management Panel</h2>
+        <h3>Client Management Panel</h3>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Login</a></li>

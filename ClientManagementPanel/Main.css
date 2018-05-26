@@ -8,8 +8,8 @@
     margin: 15px auto;
     width: 80%;
     height: 50px;
-    background-color: #ededed;
+    background: linear-gradient(to bottom right, #d7fff9, #89d7c6);
     box-shadow: rgba(0,0,0,0.4) 3px 5px 4px;
-    border: 2px solid #f2c06f;
+    border: 1px solid #cfcfcf;
     border-radius: 8px 2px;
 }
