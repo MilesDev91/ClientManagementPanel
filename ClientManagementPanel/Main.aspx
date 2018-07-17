@@ -1,6 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ClientManagementPanel.Main" %>
 
 <%@ Register Src="~/Header.ascx" TagPrefix="uc1" TagName="Header" %>
+<%@ Register Src="~/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+
 
 
 <!DOCTYPE html>
@@ -18,6 +20,11 @@
         </div>
 
         <div class="examplebox">
+
+        </div>
+
+        <div>
+            <uc1:Footer runat="server" id="Footer" />
         </div>
     </form>
 </body>
